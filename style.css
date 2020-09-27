@@ -1,0 +1,165 @@
+/* Clear all margins */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 3rem; 
+}
+
+
+/* NAVIGATION STYLING */
+.nav-list {
+    background: white;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #6BADE3;
+    font-family: Gibson;
+    font-size: 20px;
+    padding: 0px 20px;
+    
+}
+.nav-item a:hover{
+    color:#F0BCA6;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 0rem;
+    width: 15%;
+}
+
+/* Resizing of the header image and header text styling and positioning */
+.headerImg {
+    background-image: url(images/Bannerheader_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 1400px;
+    padding: 0 3rem;
+}
+
+.headerImg .wrapper {
+    width: 40rem;
+    text-align: right;
+    padding-top: 2rem;
+    
+}
+
+.headerImg img {
+    width: 80%;
+    margin-left: 10rem;
+}
+
+.bannerText {
+    font-family: Gibson;
+    color: white;
+    font-size: 100px; 
+}
+
+.bannerText2 {
+    font-family: Gibson;
+    color: white;
+    font-size: 50px;
+}
+@media all and (max-width: 1024px) {
+
+    .bannerText{
+        display:flex;
+        align-items:center;
+       text-align:center;
+    }
+
+    .bannerText2 {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-item {
+    display: none;
+
+    }
+}
+
+
+/* new body with flexbox */
+.Tours img{
+    width:60%;
+}
+.Tours {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    align-items:center;
+    padding: 3rem 0px;
+    font-family: Gibson;
+
+    
+}
+
+.Tours > div  {
+    flex-basis: 30%;
+    text-align: center;
+    /* margin: 2rem 1rem; */
+}
+
+.Tours p {
+    font-size: 12px;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 200px;
+    margin: 0 auto;
+
+}
+
+.SocialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SocialIcons a {
+    justify-content: center;
+    margin: 1rem;
+}
+
+.footerCopyright {
+    display: flex;
+    font-family: Gibson;
+    color: white;
+    justify-content: center;
+}
+
+.container2 {
+    height: rem;
+    max-width: 1300px;
+    background-color: #6BADE3;
+    margin: 0 auto;
+    padding: 0 0rem;
+}
+
+.header_text {
+    display: flex;
+    color:white;
+    justify-content: center;
+    margin: 0 auto;
+}
